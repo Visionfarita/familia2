@@ -1,0 +1,109 @@
+
+
+
+.container__imagen img{
+ filter: sepia(80%);
+  margin-left: 10%;
+}
+
+h1{
+  text-align: center;
+}
+h2{
+color: #fff;
+}
+
+.ventana1 {
+    background: rgba(0,0,0,0.7);
+    width: 65%;
+    color: rgba(255,255,255,1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 18%;
+    top:10%;
+    display: none;
+}
+.ventana2 {
+    background: rgba(0,0,0,0.7);
+    width: 65%;
+    color: rgba(255,255,255,1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 18%;
+    top:10%;
+    display: none;
+}
+
+.ventana3 {
+    background: rgba(0,0,0,0.7);
+    width: 65%;
+    color: rgba(255,255,255,1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 18%;
+    top:10%;
+    display: none;
+}
+a: {text-decoration:none; color:#fff;}
+
+a:{color:#fff;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 2px;
+}
+a:hover{text-decoration:underline;}
+a:hover {color:#fff; background:#1798af;}
+
+
+.abrir__vent1{
+position: absolute;
+top: 90%;
+color: #fff;
+margin-left: 20%;
+font-size: 25px;
+}
+.abrir__vent2{
+position: absolute;
+top: 90%;
+color: #fff;
+margin-left: 50%;
+font-size: 25px;
+}
+.abrir__vent3{
+position: absolute;
+top: 90%;
+color: #fff;
+margin-left: 80%;
+font-size: 25px;
+}
+.ventana1 .calendario img{
+ width: 53%;
+}
+.ventana2 .disney img{
+  width: 70%;
+}
+.ventana3 .aeropto img{
+  width: 80%;
+}
+/*
+@media(min-width:375px) {.abrir__vent3
+  { top: 50%;
+    margin-left: 80%;
+    font-size: 25px;
+    color:red;
+ }}*/
